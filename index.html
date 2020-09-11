@@ -1,1 +1,37 @@
-This is the script for creating a new project
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+   <link rel="stylesheet" href="css/style.css">
+
+   <title>W12B HTTP Request Types</title>
+</head>
+
+<body>
+
+   <h1 class="animate__animated animate__flash">Request Types</h1>
+
+   <form action="javascript:void(0)">
+      <p class="animate__animated animate__flash">Subject</p>
+      <input id="title-input" type="text">
+      <p class="animate__animated animate__flash">Content</p>
+      <textarea id="body-input"></textarea>
+      <br>
+      <input class="button" id="tweet-submit" type="submit" value="Send This Tweet">
+   </form>
+
+   <p id="target_status"></p>
+   <br>
+   <button class="button" id="btn">Read All Tweets</button>
+   <br>
+   <div id="tweet-logs" class="animate__animated animate__flash">Tweet Logs</div>
+
+   <script src="js/app.js"></script>
+
+</body>
+
+</html>
